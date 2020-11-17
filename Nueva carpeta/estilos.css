@@ -1,0 +1,129 @@
+*{
+    margin: 2px;
+    padding: 2px;
+} 
+body {
+    background-color:   rgb(209, 26, 26);
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.button {
+    background: rgb(88, 61, 61);
+    color:red;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 400px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px color:gray;
+}
+.button  {
+    background: rgb(129, 199, 17);
+    color:red;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 400px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px color:gray;
+}
+
+/*colores*/
+.button.blue {
+    background:  black;
+    box-shadow: 0px 3px 0p green;
+}
+ul.tabs li a .tab-text{
+    margin-left: 8px;
+}
+
+.secciones{
+    width: 100%;
+    background: wheat;
+}
+img.pequeña {
+    width: 50px; height: 50px;
+  }
+
+.secciones article{
+    padding: 30px;
+}
+
+.secciones article p{
+    text-align: justify;
+}   
+
+body-style{
+   text-align: center; padding: 16px;  solid black; float: left; width: 100px;  height: 100%;
+}
+
+
+#container{
+    /*width: 70%;*/
+    width: 900px;
+    margin: 10px auto;
+    border: 2px solid black;
+    text-align: center; 
+}
+
+ header{
+     background: rgb(252, 143, 0);
+     height: 110px;
+     width: 99.5%;
+     margin: 0px;
+     text-align: center;
+     line-height: 99.5px;
+}
+
+
+.clearfix{
+    clear: both;
+}   
+
+.foto1 { text-align: center; padding: 16px;  solid black; float: left; width: 550px;  height: 100%; }
+
+
+#content{
+    float: left;
+    width: 70%;
+    min-height: 850px;
+    background:rgba(42, 177, 240, 0.829);
+    padding: 2px;
+}
+
+.foto1 { text-align: justify; text-align: left; padding: 16px;  solid black; float: left; width: 550px;  height: 100%; }
+aside{
+    float: left;
+    width: calc(22% - 22px);
+    background: rgba(206, 98, 10, 0.726);
+    min-height: 771px;
+    padding: 40px;
+    color: black;
+    height: 65%;
+    text-align: justify;
+    text-align: left;
+ 
+}
+.foto3 {  padding: 16px;  solid black; float: left; width: 140px;  height: 250%; }
+
+.foto4 {  padding: 16px;  solid black; float: left; width: 140px;  height: 250%; }
+
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    width: 99%;
+    height: 110px;
+    line-height: 100px;
+
+} 
+<div class="foto4"></div> {  padding: 16px;  solid black; float: left; width: 100px;  height: 150%; }
